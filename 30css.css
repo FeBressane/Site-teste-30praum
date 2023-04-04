@@ -1,0 +1,54 @@
+body{
+	font-family: Verdana;
+	color: purple;
+	font-style: italic;
+}
+h1, h2, h3{
+	font-family: Comic Sans MS;
+	color: blue;
+}
+img[src="https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2F67a412d561f7ad11f0038e77272ed675.720x720x1.jpg"]{
+	border-radius: 50%;
+}
+a[href ^="pasta1/"]{
+	color: red;
+}
+a[href ^="pasta2/"]{
+	color: green;
+}	
+header{
+	background-color:black;
+	text-align: center;
+	padding: 20px;
+}
+/* Criando uma classe*/
+.topnav{
+	overflow:hidden; /*overflow permite que o coonteudo do menu fique com bom tamanho e formatado*/
+	background-color: orange; 
+}
+
+/* Formatando links descendentes da barra de navegação*/
+.topnav a {
+	float: left; /*float é utilizado para que o texto se adapte a uma forma, contronado-a*/
+	display: block;
+	text-align: center;
+	padding: 14px 16px; /*formata a distância entre um conteúdo e suas bordas 14px na vertical e 16px na horizontal*/
+	text-decoration: none;
+}
+
+/* os links trocam de cor quando o mouse passa */
+.topnav a:hover{
+	background-color: #ddd;
+	color: #f2f2f2;
+}
+
+.column{
+	float: left;
+	width: 50%;
+}
+.rodape{
+	background-color: purple;
+	text-align:center;
+	color: blue;
+	padding: 10px;
+}
